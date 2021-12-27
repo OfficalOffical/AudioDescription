@@ -1,0 +1,2 @@
+org/tensorflow/lite/examples/detection/tflite/test/BuildConfig.java
+ org.tensorflow.lite.examples.detection.tflite.test.BuildConfig
