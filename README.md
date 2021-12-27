@@ -1,12 +1,12 @@
 # Speech Synthesis app for blind people.
 
-Speech synthesis app using mobile phone's camera to sounding environment with Tensorflow-Lite and Mobilenet-SSD. The output is the name of the object and the position of it on the screen as far or close and right, left or middle as sound on mobile. This project is used [this](https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android) code as a source.
+Speech synthesis app using mobile phone's camera to sounding environment with Tensorflow-Lite and Mobilenet-SSD. The output is the name of the object and the position of it on the screen as close or far and right, left or middle as sound on mobile. This project is used [this](https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android) code as a source.
 
 
 ### Changing tresholds for more accurate usage
 
 Inside the lib_task_api/src/main/java/.tflite/APIModel. 
-- If you want project to talk faster you can change counter mod 20 to lower like counter mod 10
+- If you want project to talk faster you can change (counter mod 20) to lower like (counter mod 10)
 - Project talks if the accuracy is higher than %70. You can change it by changing float number inside the isFitForVoiceOver() function
 - Project takes area of the square of the object so if you want to arrange range option just change area value inside the isClose() Function
 
