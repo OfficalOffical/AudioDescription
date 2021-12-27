@@ -1,4 +1,4 @@
-# Audio Description app for blind peoples.
+# Audio Description app for blind people.
 
 Audio descrpition app using mobile phones camera to sounding environment with Tensorflow-Lite and Mobilenet-SSD. The output is the name of the object and the position of it on the screen as far or close and right, left or middle as sound on mobile. This project is used [this](https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android) code as a source.
 
